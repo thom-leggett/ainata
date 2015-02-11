@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Agile is not (always) the answer</title>
+    <meta name="author" content="Thom Leggett">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/hp.css" id="theme">
+    <link rel="stylesheet" href="css/typography/typography.css">
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+      if( window.location.search.match( /print-pdf/gi ) ) {
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = 'css/print/pdf.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }
+    </script>
+
+    <!--[if lt IE 9]>
+	<script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+
+        <section>
+          <div class="middle">
+            <div>
+              <h1>Agile is not (always) the answer</h1>
+              <p>&nbsp;</p>
+              <hr/>
+              <p><strong>Thom Leggett</strong></p>
+              <p><strong>IRC</strong> tteggel on Freenode</p>
+              <p><strong>Twitter</strong> <a href="https://twitter.com/intent/user?user_id=37049955">@thomleg</a></p>
+              <p><strong>Email</strong> <a hef="mailto:thom@tteggel.org">thom@tteggel.org</a></p>
+              <hr/>
+            </div>
+          </div>
+
+          <footer>
+            <a href="http://creativecommons.org/licenses/by-sa/4.0/">This presentation licensed under CC-BY-SA <img src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png"/></a>
+          </footer>
+       </section>
+
+       <section data-background="dark-side.jpg" class="bgwhite">
+         <section class="middle">
+           <div>
+             <h1>Why I turned to the dark side</h1>
+             <p>()</p>
+           </div>
+         </section>
+         <footer><a href="https://www.flickr.com/photos/ashtonpal/6196666723">Background photo</a> &copy; <a href="https://www.flickr.com/photos/ashtonpal/">AshtonPal</a> on flickr. Licence <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">CC BY-NC-ND 2.0</a></footer>
+       </section>
+
+       <section data-background="product.jpg" class="bgwhite">
+         <section class="middle">
+           <div>
+             <h1>Do you need a new product-development strategy?</h1>
+             <h4>(MacCormack, Crandall, Henderson, Toft 2012)</h4>
+           </div>
+         </section>
+
+         <section>
+           <img src="hype-cycle.png"/>
+
+           <footer>Hype Cycle Diagram by NeedCokeNowOlga; Tarkovskiy. License <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via <a href="http://commons.wikimedia.org/wiki/File:Hype-Cycle-General.png">Wikimedia Commons</a></footer>
+         </section>
+
+         <section>
+           <h1>Key Questions</h1>
+           <table>
+             <thead>
+               <tr>
+                 <th>Start-up</th><th>Growth</th><th>Maturity</th>
+               </tr>
+               <tr>
+                 <th><em>(Cloud)</em></th><th><em>(Blades)</em></th><th><em>(Desktops)</em></th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                 <td>Does a market exist? If so, in what form?</td>
+                 <td>How quickly can we adapt and scale?</td>
+                 <td>How can we sustain margin and share? </td>
+               </tr>
+               <tr><td colspan="3"><img src="hype-cycle.svg" class="noborder"/></td></tr>
+             </tbody>
+           </table>
+           <aside class="notes">
+             <h2>Start-up</h2>
+             Questions to gauge whether value exists at all:
+             <ul>
+               <li>Who is the customer?
+               <li>How does our product create value for them?
+               <li>Will anyone pay for what we offer? Can we make money on it?
+               <li>Is this opportunity unique to us? What are the risks associated with it?
+             </ul>
+             <h2>Growth</h2>
+             Questions to evaluate how well the design fits evolving customer needs:
+             <ul>
+               <li>What is customer response to early beta versions and prototypes?
+               <li>What features should be prioritized in the next iteration?
+               <li>What changes in technology should be incorporated in the next version?
+             </ul>
+             <h2>Maturity</h2>
+             Questions to evaluate progress versus the plan:
+             <ul>
+               <li>How are we doing on schedule, features, and quality?
+               <li>Does the design meet all of the exit criteria for this stage?
+               <li>How much will it cost to complete the project?
+             </ul>
+           </aside>
+         </section>
+
+         <section>
+           <h1>Customers</h1>
+           <table>
+             <thead>
+               <tr>
+                 <th>Start-up</th><th>Growth</th><th>Maturity</th>
+               </tr>
+               <tr>
+                 <th><em>Cloud</em></th><th><em>Blades</em></th><th><em>Desktops</em></th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                 <td>“Lead users” and enthusiasts.</td>
+                 <td>Early majority in the adoption bell curve.</td>
+                 <td>Late majority and laggards.</td>
+               </tr>
+               <tr><td colspan="3"><img src="hype-cycle.svg" class="noborder"/></td></tr>
+             </tbody>
+           </table>
+         </section>
+
+         <section>
+           <h1>Customer Needs</h1>
+           <table>
+             <thead>
+               <tr>
+                 <th>Start-up</th><th>Growth</th><th>Maturity</th>
+               </tr>
+               <tr>
+                 <th><em>Cloud</em></th><th><em>Blades</em></th><th><em>Desktops</em></th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                 <td>Largely unknown.</td>
+                 <td>Known, but changing rapidly.</td>
+                 <td>Well known and stable over time.</td>
+               </tr>
+               <tr><td colspan="3"><img src="hype-cycle.svg" class="noborder"/></td></tr>
+             </tbody>
+           </table>
+         </section>
+
+         <section>
+           <h1>Market Size</h1>
+           <table>
+             <thead>
+               <tr>
+                 <th>Start-up</th><th>Growth</th><th>Maturity</th>
+               </tr>
+               <tr>
+                 <th><em>Cloud</em></th><th><em>Blades</em></th><th><em>Desktops</em></th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                 <td>Very small—may not even exist yet.</td>
+                 <td>Small, but growing rapidly.</td>
+                 <td>Large, but with fl at or declining revenue.</td>
+               </tr>
+               <tr><td colspan="3"><img src="hype-cycle.svg" class="noborder"/></td></tr>
+             </tbody>
+           </table>
+         </section>
+
+         <section>
+           <h1>Technology Maturity</h1>
+           <table>
+             <thead>
+               <tr>
+                 <th>Start-up</th><th>Growth</th><th>Maturity</th>
+               </tr>
+               <tr>
+                 <th><em>Cloud</em></th><th><em>Blades</em></th><th><em>Desktops</em></th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                 <td>Very immature, but improving in leaps.</td>
+                 <td>Maturing quickly, following well-defined trajectory.</td>
+                 <td>Proven and stable, predictable.</td>
+               </tr>
+               <tr><td colspan="3"><img src="hype-cycle.svg" class="noborder"/></td></tr>
+             </tbody>
+           </table>
+         </section>
+
+         <section>
+           <h1>Solutions</h1>
+           <table>
+             <thead>
+               <tr>
+                 <th>Start-up</th><th>Growth</th><th>Maturity</th>
+               </tr>
+               <tr>
+                 <th><em>Cloud</em></th><th><em>Blades</em></th><th><em>Desktops</em></th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                 <td>Many unexplored design possibilities.</td>
+                 <td>Competing design possibilities.</td>
+                 <td>Well-known single dominant design.</td>
+               </tr>
+               <tr><td colspan="3"><img src="hype-cycle.svg" class="noborder"/></td></tr>
+             </tbody>
+           </table>
+         </section>
+
+         <section>
+           <h1>Available Knowledge</h1>
+           <table>
+             <thead>
+               <tr>
+                 <th>Start-up</th><th>Growth</th><th>Maturity</th>
+               </tr>
+               <tr>
+                 <th><em>Cloud</em></th><th><em>Blades</em></th><th><em>Desktops</em></th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                 <td>&lt;20% of final design parameters.</td>
+                 <td>40-70% of final design parameters.</td>
+                 <td>&gt;90% of final design parameters.</td>
+               </tr>
+               <tr><td colspan="3"><img src="hype-cycle.svg" class="noborder"/></td></tr>
+             </tbody>
+           </table>
+         </section>
+
+         <footer><a href="https://www.flickr.com/photos/jeremybrooks/5401494223">Background photo</a> &copy; <a href="https://www.flickr.com/photos/jeremybrooks/">Jeremy Brooks</a> on flickr. Licence <a href="https://creativecommons.org/licenses/by-nc/2.0/">CC BY-NC 2.0</a></footer>
+       </section>
+
+      </div>
+    </div>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+    <script>
+      Reveal.initialize({
+      width: 1920,
+      height: 1080,
+      controls: false,
+      progress: true,
+      history: true,
+      center: false,
+      transition: 'cube',
+      backgroundTransition: 'concave',
+      dependencies: [
+      { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+      { src: 'plugin/notes/notes.js' }
+      ]
+      });
+    </script>
+
+    <script type="text/javascript" async src="//platform.twitter.com/widgets.js"></script>
+
+    <style>
+      .reveal section {height: 100%;}
+      .reveal section footer {position: absolute; width:93%; bottom: 20px; font-size:80%; vertical-align:middle;}
+      .reveal section footer img {margin:0}
+      .middle > *, .left, .right {position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);}
+      div.left {text-align:center; padding:0 25px 0 50px; transform: translate(-100%, -50%); width: 47%}
+      div.right {text-align:center; padding:0 50px 0 25px; transform: translate(0%, -50%); width: 47%}
+      .reveal table {margin: 0 auto; padding: 10px}
+      .reveal table td, .reveal table th {padding: 0px 50px 0px 50px}
+      .reveal table thead tr {padding-bottom: 10px}
+      .reveal.cube .slides section {padding: 60px;}
+      .reveal .noborder {border:none; box-shadow: none;}
+      .reveal section.white,
+      .reveal section.white h1,
+      .reveal section.white h2,
+      .reveal section.white h3,
+      .reveal section.white h4,
+      .reveal section.white h5,
+      .reveal section.white h6,
+      .reveal section.white footer,
+      .reveal section.white table{color:white;}
+      .reveal section.bgblack,
+      .reveal section.bgblack h1,
+      .reveal section.bgblack h2,
+      .reveal section.bgblack h3,
+      .reveal section.bgblack h4,
+      .reveal section.bgblack h5,
+      .reveal section.bgblack h6,
+      .reveal section.bgblack p,
+      .reveal section.bgblack footer,
+      .reveal section.bgblack table {background-color: black}
+      .reveal section.bgblack,
+      .reveal section.bgwhite h1,
+      .reveal section.bgwhite h2,
+      .reveal section.bgwhite h3,
+      .reveal section.bgwhite h4,
+      .reveal section.bgwhite h5,
+      .reveal section.bgwhite h6,
+      .reveal section.bgwhite p,
+      .reveal section.bgwhite footer,
+      .reveal section.bgwhite table {background-color: white}
+      .reveal p, .reveal blockquote {font-size:150%;}
+    </style>
+  </body>
+</html>
