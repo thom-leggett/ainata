@@ -14,7 +14,7 @@
    id="svg3067"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="strategy-map.svg">
+   sodipodi:docname="techniques-map.svg">
   <defs
      id="defs3069">
     <marker
@@ -40,8 +40,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.0000001"
-     inkscape:cx="421.38146"
-     inkscape:cy="473.6662"
+     inkscape:cx="597.02897"
+     inkscape:cy="390.34266"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -51,10 +51,10 @@
      inkscape:object-paths="true"
      inkscape:snap-global="false"
      showguides="false"
-     inkscape:window-width="1184"
-     inkscape:window-height="1180"
-     inkscape:window-x="0"
-     inkscape:window-y="18"
+     inkscape:window-width="2558"
+     inkscape:window-height="1598"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -181,6 +181,15 @@
      id="layer1"
      style="display:inline"
      transform="translate(285.57817,-103.01959)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 75.999547,462.35474 196.99998,85.119502"
+       id="path3440"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#path3928-1-7-6-8"
+       inkscape:connection-start-point="d4"
+       transform="translate(-285.57817,103.01959)" />
     <g
        id="g4911"
        transform="translate(-33.941125,10.606601)">
@@ -407,11 +416,11 @@
        sodipodi:cy="190.04547"
        sodipodi:rx="7.4246211"
        sodipodi:ry="7.4246211"
-       d="m 264.45795,190.04547 a 7.4246211,7.4246211 0 1 1 -14.84925,0 7.4246211,7.4246211 0 1 1 14.84925,0 z"
+       d="m 264.45795,190.04547 c 0,4.10051 -3.32412,7.42462 -7.42462,7.42462 -4.10051,0 -7.42463,-3.32411 -7.42463,-7.42462 0,-4.1005 3.32412,-7.42462 7.42463,-7.42462 4.1005,0 7.42462,3.32412 7.42462,7.42462 z"
        transform="translate(-8.066591,117.16713)" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 262.23193,232.47951 -62.010454,121.30673"
+       d="M 262.34811,232.16421 -62.008147,121.29999"
        id="path5154"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -422,7 +431,7 @@
        inkscape:connection-start="#path3928-1-7" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 272.18487,228.06316 43.2576,-100.84009"
+       d="M 273.0077,228.47918 315.49613,127.24587"
        id="path5156"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -556,7 +565,7 @@
        transform="translate(-160.06657,195.66713)" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 262.45449,231.90875 16.274396,124.08459"
+       d="M 262.63097,231.53518 16.278849,124.07441"
        id="path5351"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -1272,16 +1281,65 @@
        sodipodi:ry="7.4246211"
        d="m 264.45795,190.04547 c 0,4.10051 -3.32412,7.42462 -7.42462,7.42462 -4.10051,0 -7.42463,-3.32411 -7.42463,-7.42462 0,-4.1005 3.32412,-7.42462 7.42463,-7.42462 4.1005,0 7.42462,3.32412 7.42462,7.42462 z"
        transform="translate(-468.88025,382.4006)" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 76.003603,462.35604 193.97981,95.273234"
-       id="path3619"
-       inkscape:connector-type="polyline"
-       inkscape:connector-curvature="0"
-       inkscape:connection-start="#path3928-1-7-6-8"
-       inkscape:connection-start-point="d4"
-       inkscape:connection-end="#path3928-0-5-6-1"
-       inkscape:connection-end-point="d4"
-       transform="translate(-285.57817,103.01959)" />
+    <rect
+       style="opacity:0.81;fill:#000000;fill-opacity:1;stroke:none"
+       id="rect3377"
+       width="1007.9999"
+       height="148.99998"
+       x="-269.03192"
+       y="313.90445" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="-263.57816"
+       y="349.87543"
+       id="text3398"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="-263.57816"
+         y="349.87543"
+         id="tspan3402">In-House</tspan><tspan
+         sodipodi:role="line"
+         x="-263.57816"
+         y="399.87543"
+         id="tspan3418">Agile</tspan><tspan
+         sodipodi:role="line"
+         x="-263.57816"
+         y="449.87543"
+         id="tspan3420">Dynamic</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="501.42178"
+       y="350.1391"
+       id="text3404"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="501.42178"
+         y="350.1391"
+         id="tspan3408">Outsource</tspan><tspan
+         sodipodi:role="line"
+         x="501.42178"
+         y="400.1391"
+         id="tspan3434">Utility</tspan><tspan
+         sodipodi:role="line"
+         x="501.42178"
+         y="450.1391"
+         id="tspan3438">Six Sigma</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="82.974564"
+       y="379.1723"
+       id="text3422"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3424"
+         x="82.974564"
+         y="379.1723">Off-the-shelf</tspan><tspan
+         sodipodi:role="line"
+         x="82.974564"
+         y="429.1723"
+         id="tspan3426">Lean</tspan></text>
   </g>
 </svg>
