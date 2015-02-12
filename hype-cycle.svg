@@ -64,41 +64,41 @@
        sodipodi:nodetypes="cssc" />
     <text
        xml:space="preserve"
-       style="font-size:28px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Sans"
-       x="-78.593857"
-       y="642.09839"
+       style="font-size:24px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-75.736717"
+       y="690.6698"
        id="text3885"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3887"
-         x="-78.593857"
-         y="642.09839">Technology</tspan><tspan
+         x="-75.736717"
+         y="690.6698">Technology</tspan><tspan
          sodipodi:role="line"
-         x="-78.593857"
-         y="682.52643"
+         x="-75.736717"
+         y="720.6698"
          id="tspan3893">Trigger</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:28px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Sans"
-       x="173.7619"
-       y="243.68706"
+       style="font-size:24px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Sans"
+       x="206.61905"
+       y="262.25848"
        id="text3895"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3897"
-         x="173.7619"
-         y="243.68706">Peak of</tspan><tspan
+         x="206.61905"
+         y="262.25848">Peak of</tspan><tspan
          sodipodi:role="line"
-         x="173.7619"
-         y="284.11508"
+         x="206.61905"
+         y="292.25851"
          id="tspan3899">Inflated</tspan><tspan
          sodipodi:role="line"
-         x="173.7619"
-         y="324.54309"
+         x="206.61905"
+         y="322.25848"
          id="tspan3903">Expectations</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:28px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:24px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Sans"
        x="400.55124"
        y="664.34741"
        id="text3907"
@@ -113,7 +113,7 @@
          id="tspan3911">Disillusionment</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:28px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:24px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Sans"
        x="946.15985"
        y="537.25903"
        id="text3913"
@@ -128,18 +128,18 @@
          id="tspan3917">Enlightenment</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:28px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Sans"
-       x="1423.583"
-       y="277.00446"
+       style="font-size:24px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Sans"
+       x="1455.0116"
+       y="299.8616"
        id="text3919"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3921"
-         x="1423.583"
-         y="277.00446">Plateau of</tspan><tspan
+         x="1455.0116"
+         y="299.8616">Plateau of</tspan><tspan
          sodipodi:role="line"
-         x="1423.583"
-         y="317.43246"
+         x="1455.0116"
+         y="329.8616"
          id="tspan3923">Productivity</tspan></text>
   </g>
 </svg>
